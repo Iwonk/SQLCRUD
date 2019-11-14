@@ -51,9 +51,7 @@ public class AdapterBarangRecyclerView extends RecyclerView.Adapter<AdapterBaran
         /**
          * Inisiasi ViewHolder
          */
-        View v =
-                LayoutInflater.from(parent.getContext()).inflate(R.layout.item_barang,
-                        parent, false);
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_barang, parent, false);
         // mengeset ukuran view, margin, padding, dan parameter layout lainnya
         ViewHolder vh = new ViewHolder(v);
         return vh;
